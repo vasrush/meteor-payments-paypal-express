@@ -2,7 +2,7 @@ import { Reaction } from "/server/api";
 
 Reaction.registerPackage({
   label: "PayPal",
-  name: "reaction-paypal",
+  name: "reaction-paypal-express",
   icon: "fa fa-paypal",
   autoEnable: true,
   settings: {

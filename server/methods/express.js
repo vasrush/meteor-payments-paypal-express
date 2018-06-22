@@ -405,7 +405,7 @@ function parseRefundReponse(response) {
 
 function getSetting(shopId, parameter) {
   const { settings } = Packages.findOne({
-    name: "reaction-paypal",
+    name: "reaction-paypal-express",
     shopId,
     enabled: true
   });

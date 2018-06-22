@@ -12,7 +12,7 @@ Template.paypalExpressSettings.helpers({
   },
   packageData() {
     return Packages.findOne({
-      name: "reaction-paypal"
+      name: "reaction-paypal-express"
     });
   }
 });
