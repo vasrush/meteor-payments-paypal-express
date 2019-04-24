@@ -5,7 +5,7 @@ import { Meteor } from "meteor/meteor";
 import { check } from "meteor/check";
 import { PayPal } from "../../lib/api";
 import { Shops, Cart, Packages } from "/lib/collections";
-import { Logger } from "/server/api";
+import Logger from "@reactioncommerce/logger";
 import { PaymentMethodArgument } from "/lib/collections/schemas";
 
 let moment;
