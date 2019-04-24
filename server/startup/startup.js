@@ -1,7 +1,6 @@
-import Hooks from "@reactioncommerce/hooks";
 import Reaction from "/imports/plugins/core/core/server/Reaction";
 
-Hooks.Events.add("afterCoreInit", () => {
+appEvents.emit("afterCoreInit", () => {
   Reaction.addRolesToGroups({
     allShops: true,
     groups: ["customer", "guest"],
